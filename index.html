@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lading Generica</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<link  rel="stylesheet" type="text/css" href="Fontawesome/css/font-awesome.min.css"/>
+	<link href="Bootstrap/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Css/jquery-ui.min.css">
+</head>
+<body>
+<div class="container contenedor">
+	<header class="row">
+		<div class="logoBox">
+			<div class="logo  col-md-4">
+				<img src="img/github.png" alt="">
+			</div>
+			<div class="redes col-md-8">
+				<div class="bio col-md-4"><a href="" class="mov" data-id="1">Biografia</a></div>
+				<div class="skill col-md-4"><a href="" class="mov" data-id="2">Galeria</a></div>
+				<div class="galeria col-md-4"><a href="" class="mov" data-id="3">Habilidades</a></div>
+			</div>
+		</div>
+	</header>
+	<section class="row" id="1">
+		<div class="bio col-md-8">
+		<h2>Biografia</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione et nam numquam accusamus magni, commodi nesciunt fuga, dolorum officia obcaecati cum. Minima molestias ullam omnis quaerat, repudiandae porro, fugit.</p><div class="extra col-xs-12 col-md-8" id="4"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, blanditiis eveniet alias accusantium in nisi ut fugiat maxime, at nobis aspernatur ducimus saepe quidem, quas cumque itaque. Laudantium, quae, quibusdam.</p></div>	<input type="button" value="ver más" class="verMas pull-right" data-id="4"></p>
+		</div>
+		<div class="foto col-md-4"><img src="img/1.jpg" class="img-responsive"></div>
+	</section>
+
+
+	<section class="row" id="2">
+		<div class="galeriaBox">
+			<a data-id= "img/imagen1.png" href="#" data-toggle="modal" data-target="#myModal" class= "col-xs-12 col-md-6 chiquita"><img id= "primera" src= "img/imagen1.png" class="img-responsive"></a>
+			<a data-id= "img/imagen2.jpg" href="#" data-toggle="modal" data-target="#myModal" class= "col-xs-12 col-md-6 chiquita"><img id= "segunda" src= "img/imagen2.jpg" class="img-responsive"></a>
+		</div>
+	</section>
+	<section class="row">
+		<div class="galeriaBox">
+			<a data-id= "img/imagen3.jpg" href="#" data-toggle="modal" data-target="#myModal" class= "col-xs-12 col-md-6 chiquita"><img id= "tercera" src= "img/imagen3.jpg" class="img-responsive"></a>
+			<a data-id= "img/imagen4.jpg" href="#" data-toggle="modal" data-target="#myModal" class= "col-xs-12 col-md-6 chiquita"><img id= "cuarta" src= "img/imagen4.jpg" class="img-responsive"></a>
+		</div>
+	</section>
+
+
+
+<section id="3" class="row skills">
+<div class="col-md-12">
+	<h2>Habilidades</h2>
+		<ul id="skill">
+		    <li><span class="bar graphic-design"></span><h3>HTML & CSS</h3></li>
+		    <li><span class="bar html-css"></span><h3>Javascript</h3></li>
+		    <li><span class="bar jquery"></span><h3>Jquery/AJAX</h3></li>
+		    <li><span class="bar wordpress"></span><h3>Bootstrap</h3></li>
+		</ul>
+</div>
+</section>
+
+
+	<footer class="row redes">
+		<div class="facebookBox col-md-3"><a href="#"><img src="img/01fb.png"></a></div>
+		<div class="instagramBox col-md-3"><a href="#"><img src="img/02insta.png"></a></div>
+		<div class="linkedinBox col-md-3"><a href="#"><img src="img/06link.png"></a></div>
+		<div class="githubBox col-md-3"><a href="#"><img src="img/github.png"></a></div>
+	</footer>
+</div>
+<div><!--MODAL-->
+            <div class= "modal fade" id= "myModal" role="dialog" aria-labelledby="myModalLabel">
+                <div class= "modal-dialog" role="document">
+                    <div class="modal-content sale">
+                        <div class="modal-body modal-center">
+                            <img src= "" class="imagen-pop grande img-responsive" id="imagenGrande"/>
+                        </div>    
+                    </div>
+                </div><!-- modal dialog-->
+            </div><!--modal fade-->
+        </div>
+
+
+<script src="jQuery/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="Bootstrap/bootstrap.min.js"></script>
+<script src="js/index.js" type="text/javascript"></script>
+<script type="text/javascript" src="Js/jquery-ui.min.js"></script>
+</body>
+</html>
